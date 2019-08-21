@@ -1,0 +1,253 @@
+#rcomplete {
+    margin-left: 30px;
+    
+  }
+
+  #grad2 {
+    height: 100%;
+    background-color: #e5e6e8; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#e5e6e8, #bcbcbc); /* Standard syntax (must be last) */
+  }
+
+  .selectBox1{
+      border-radius:4px;border:1px solid #AAAAAA;
+      height: 30px;
+      width:250px;
+      background-color: #e5e6e8; /* For browsers that do not support gradients */
+      background-image: linear-gradient(#e5e6e8, #bcbcbc); /* Standard syntax (must be last) */
+    }
+
+    .selectBox{
+      border-radius:4px;border:2px solid #f4f4f4;
+      height: 35px;
+      width:270px;
+      background-color: #e5e6e8; /* For browsers that do not support gradients */
+      background-image: linear-gradient(#e5e6e8, #f4f4f4); /* Standard syntax (must be last) */
+    }
+
+    #table1 {
+        border-collapse: separate;
+        border-spacing: 15px;
+      }
+      input[type=text] {
+        padding:5px; 
+        border:3px solid #ccc; 
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    
+    .button {
+        background-color: #3463af; /* Green */
+        background-image: linear-gradient(#3463af, #bcbcbc); /* Standard syntax (must be last) */
+        border-radius: 12px;
+        color: white;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        height: 50px;
+        
+      }
+      .button:hover {
+
+        background-color: #fff; /* Green */
+        background-image: linear-gradient(#fff, #bcbcbc); /* Standard syntax (must be last) */
+        border-radius: 12px;
+        color: black;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+
+      }
+
+      .button1 {
+        background-color: #3463af; /* Green */
+        background-image: linear-gradient(#3463af, #bcbcbc); /* Standard syntax (must be last) */
+        border-radius: 12px;
+        color: white;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        width: 220px;
+        cursor: pointer;
+        height: 50px;
+        
+      }
+      .button1:hover {
+
+        background-color: #fff; /* Green */
+        background-image: linear-gradient(#fff, #bcbcbc); /* Standard syntax (must be last) */
+        border-radius: 12px;
+        color: black;
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+
+      }
+
+      
+      .textos{
+        color:#000;
+        font-size:25px;
+
+        font-style: italic;
+        font-weight: bold;
+      }
+
+      #rcorners {
+        border-radius: 25px;
+        border: 3px solid #424242;
+        padding: 10px; 
+        width: 80%;
+        height: auto;  
+      }
+
+      #rsol{
+        border-radius: 20px;
+        border: 3px solid #424242;
+        padding: 5px; 
+        width: auto;
+        height: 150px;  
+
+      }
+
+      #rcon{
+        border-radius: 20px;
+        border: 3px solid #424242;
+        padding: 5px; 
+        width: auto;
+        height: 150px;  
+
+      }
+      
+      #rpas{
+        border-radius: 20px;
+        border: 3px solid #424242;
+        padding: 5px; 
+        width: auto;
+        height: 150px;  
+
+      }
+
+
+      label.f {
+        font-weight: bold;
+        font-size: 30px;
+        font-style: italic;
+      }
+
+
+
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 200px;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        border-radius: 20px;
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        -webkit-animation-name: fadeIn; /* Fade in the background */
+        -webkit-animation-duration: 0.4s;
+        animation-name: fadeIn;
+        animation-duration: 0.4s
+      }
+      
+      /* Modal Content */
+      .modal-content {
+        position: fixed;
+        bottom: 50%;
+        left: 500px;
+        background-color: #fefefe;
+        width: 50%;
+        -webkit-border-radius: 30px !important;
+        -moz-border-radius: 30px !important;
+        border-radius: 30px !important; 
+        -webkit-animation-name: slideIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slideIn;
+        animation-duration: 0.4s
+      }
+      
+      /* The Close Button */
+      .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .close1 {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close1:hover,
+      .close1:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .modal-header {
+        padding: 2px 2px;
+        background-color: #005580;
+        color: white;
+      }
+      
+      .modal-body {padding: 2px 2px;}
+      
+      .modal-footer {
+        padding: 2px 2px;
+        background-color: #005580;
+        color: white;
+      }
+      
+      /* Add Animation */
+      @-webkit-keyframes slideIn {
+        from {bottom: -300px; opacity: 0} 
+        to {bottom: 0; opacity: 1}
+      }
+      
+      @keyframes slideIn {
+        from {bottom: -300px; opacity: 0}
+        to {bottom: 0; opacity: 1}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        from {opacity: 0} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fadeIn {
+        from {opacity: 0} 
+        to {opacity: 1}
+      }

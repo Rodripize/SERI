@@ -1,0 +1,26 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  color: white;
+  background-color: #323a47; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#323a47, #4f5f7a); /* Standard syntax (must be last) */
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+a{
+  background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
+  padding:40px;
+  color: white;
+  }

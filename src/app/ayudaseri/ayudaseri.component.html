@@ -1,0 +1,127 @@
+<div id="rcomplete">
+
+    <p>
+
+    </p>
+
+
+
+    <br>
+    <br>
+    <br>
+    <div id="rcorners">
+
+        <p class="textos">Por favor introduce los datos de la incidencia para que pueda ayudarte mejor en el futuro.</p>
+
+        <br>
+
+        <select id="selectinc" class="select-css">
+
+            <option value="0">Incidencia Conocidas</option>
+
+
+          </select>
+
+        <br>
+        <button [routerLink]="['/create']" class="myButton">Registrar nueva incidencia</button><br>
+
+        <br>
+
+        <p class="textos">Selecciona los sintomas que presenta tu incidencia.</p><br>
+        <select id="sintoma1" class="select-css">
+            <option>Sintoma1</option>
+
+          </select>
+
+        <br>
+        <select id="sintoma2" class="select-css">
+            <option>Sintoma2</option>
+
+          </select>
+
+        <br>
+        <select id="sintoma3" class="select-css">
+            <option>Sintoma3</option>
+
+          </select>
+
+        <br>
+        <select id="sintoma4" class="select-css">
+            <option>Sintoma4</option>
+
+          </select>
+
+
+        <br>
+
+        <p class="textos">¿Como puedo solucionar esta incidencia?</p>
+        <div id="rsol">
+
+
+            <input id="isol" class="input1">
+
+            <br>
+
+
+
+
+        </div>
+        <br> ¿Cual es el coste de esta solucion? (1 bajo - 5 alto):
+        <br>
+        <br>
+        <div id="rcost">
+
+            <input id="icost" class="input1" maxlength="1" oninput="this.value = this.value.replace(/[^1-5.]/g, '').replace(/(\..*)\./g, '$1');">
+
+
+        </div>
+
+
+        <br> ¿Que pasos debo seguir para aplicar la solucion?
+        <div id="rpas">
+
+            <input id="ipas1" class="input1"><br><br>
+            <input id="ipas2" class="input1"><br><br>
+            <input id="ipas3" class="input1"><br><br>
+            <input id="ipas4" class="input1"><br><br>
+
+        </div>
+        <br> ¿Que consideraciones tengo que tener en cuenta al aplicar esta solucion?
+        <div id="rcon">
+
+            <input id="icon1" class="input1"><br><br>
+            <input id="icon2" class="input1"><br><br>
+            <input id="icon3" class="input1"><br><br>
+            <input id="icon4" class="input1"><br><br>
+
+        </div>
+
+
+
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="button1" (click)='soluciones()'>GUARDAR DATOS</button>
+
+
+
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>GRACIAS POR TU APORTACION</h2>
+            </div>
+            <div class="modal-body">
+                <p>La nueva solucion se ha almacenado</p>
+
+            </div>
+            <div class="modal-footer">
+                <h3>____________________________________</h3>
+            </div>
+        </div>
+
+    </div>
+
+</div>
